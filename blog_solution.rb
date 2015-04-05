@@ -9,7 +9,7 @@ class Blog
     @total_blog_posts = 0
   end
   
-  def create_blogpost
+  def create_blogpost #<< means append to array
     new_blog_post = Blog_Post.new
     puts "here is my new blog post"
     @all_blog_posts << new_blog_post
